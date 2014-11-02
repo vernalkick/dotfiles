@@ -25,7 +25,7 @@ ensure_symlink(){
     log "$destination is already symlinked"
   else
     log "Symlinking $source to $destination"
-    ln -s "$source" "$destination"
+    ln -s -f "$source" "$destination"
   fi
 }
 
