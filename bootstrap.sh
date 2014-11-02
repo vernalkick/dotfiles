@@ -68,7 +68,7 @@ ensure_symlink ~/dotfiles/zshrc ~/.zshrc
 ensure_symlink ~/dotfiles/gitconfig ~/.gitconfig
 ensure_symlink ~/dotfiles/gitignore ~/.gitignore
 ensure_symlink ~/dotfiles/gemrc ~/.gemrc
-ensure_symlink ~/dotfiles/sublime-text ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ensure_symlink ~/dotfiles/sublime-text/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 header "Setting up packages"
 
