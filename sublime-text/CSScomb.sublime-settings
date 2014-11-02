@@ -1,0 +1,13 @@
+{
+  "always-semicolon": true,
+  "colon-space": [0, 1],
+  "color-case": "lower",
+  "color-shorthand": true,
+  "combinator-space": [1, 1],
+  "element-case": "lower",
+  "leading-zero": true,
+  "quotes": "double",
+  "remove-empty-rulesets": true,
+  "stick-brace": 1,
+  "strip-spaces": true
+}

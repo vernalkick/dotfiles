@@ -1,0 +1,49 @@
+{
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/Flatland Dark.tmTheme",
+	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"dump.rdb",
+		".gitmodules",
+		".gitignore"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"coverage",
+		"log",
+		"tmp",
+		".gitmodules",
+		"Build"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Sass",
+		"ZenCoding",
+		"LiveReload",
+		"CSScomb"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"scroll_past_end": true,
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+}
