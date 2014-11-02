@@ -6,7 +6,7 @@ Based off of [David Cornu's dotfiles](https://github.com/davidcornu/dotfiles).
 
 ```shell
 $ cd ~/
-$ git clone git@github.com:kevinclark/dotfiles.git
+$ git clone git@github.com:vernalkick/dotfiles.git
 $ ./dotfiles/bootstrap.sh
 ```
 
