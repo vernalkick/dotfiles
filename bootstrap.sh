@@ -86,3 +86,6 @@ ensure_repo ~/.rbenv/plugins/ruby-build git@github.com:sstephenson/ruby-build.gi
 
 # Node
 ensure_repo ~/.nvm git@github.com:creationix/nvm.git
+
+# Sublime Text
+ensure_repo ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Theme\ -\ Spacegray git@github.com:vernalkick/Spacegray-Neue.git
