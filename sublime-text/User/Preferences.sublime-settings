@@ -5,7 +5,6 @@
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Flatland Dark.tmTheme",
 	"create_window_at_startup": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -25,8 +24,6 @@
 		".gitmodules",
 		"Build"
 	],
-	"font_face": "Source Code Pro",
-	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -39,11 +36,11 @@
 	"scroll_past_end": true,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"draw_shadows": false,
+	"enable_tab_scrolling": false,
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
 }
