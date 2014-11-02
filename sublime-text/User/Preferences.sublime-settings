@@ -2,7 +2,6 @@
 	"theme": "Spacegray.sublime-theme",
 	"color_scheme": "Packages/Theme - Spacegray/Flatland Dark.tmTheme",
 	"auto_indent": true,
-	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
 	"create_window_at_startup": false,
