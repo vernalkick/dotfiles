@@ -147,7 +147,7 @@ endif
 " Theme
 set t_Co=16 " Use the terminal's colors to get true colors
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 " Source the vimrc file after saving it. This way, you don't have to reload Vim to see the changes.
 if has("autocmd")
