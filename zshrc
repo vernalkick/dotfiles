@@ -62,6 +62,7 @@ function strip-diff {
 # Misc
 alias serve='ruby -run -e httpd . -p 9090'
 alias b='bundle exec'
+alias ss='script server'
 
 # Get rid of autocorrection
 unsetopt correct_all
@@ -95,3 +96,8 @@ function dev {
     vagrant ssh -- -t 'cd ~/src/shopify && exec $SHELL --login'
   )
 }
+
+setopt no_complete_aliases
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

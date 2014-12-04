@@ -122,7 +122,6 @@ set laststatus=2
 set showcmd
 set number
 set hidden
-set cursorline
 set fillchars=""
 set nowrap
 set wildmenu wildmode=list:longest,full
