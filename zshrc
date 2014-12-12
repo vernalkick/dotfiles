@@ -99,12 +99,11 @@ function dev {
   )
 }
 
-function tst {
+function forcepush {
   (
     branch=$(git symbolic-ref --short HEAD)
-    echo
-    echo "**** Running post-commit hook from branch $branch"
-    echo
+    git push origin +$branch
+    echo "Force pushing $branch"
   )
 }
 
