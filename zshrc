@@ -47,6 +47,10 @@ alias cleanup-remote-branches='git remote prune origin'
 alias cleanup-local-branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias vim-conflicts='vim $(git diff-files --name-only -0)'
 
+alias shopify="cd ~/vagrant/src/shopify; subl ."
+alias bi="bundle install"
+alias ss="script/server"
+
 function strip-diff {
   (
     set -e

@@ -30,8 +30,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Sass"
+		"Sass",
+		"Vintage"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
