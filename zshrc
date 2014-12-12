@@ -47,10 +47,6 @@ alias cleanup-remote-branches='git remote prune origin'
 alias cleanup-local-branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias vim-conflicts='vim $(git diff-files --name-only -0)'
 
-alias shopify="cd ~/vagrant/src/shopify; subl ."
-alias bi="bundle install"
-alias ss="script/server"
-
 function strip-diff {
   (
     set -e
@@ -65,8 +61,10 @@ function strip-diff {
 
 # Misc
 alias serve='ruby -run -e httpd . -p 9090'
-alias b='bundle exec'
-alias ss='script server'
+alias be='bundle exec'
+alias bi='bundle install'
+alias ss='script/server'
+alias shopify='cd ~/vagrant/src/shopify; subl .'
 
 # Get rid of autocorrection
 unsetopt correct_all
@@ -98,6 +96,15 @@ function dev {
     cd ~/vagrant
     if vagrant status | grep -q 'powered off'; then vagrant up; fi
     vagrant ssh -- -t 'cd ~/src/shopify && exec $SHELL --login'
+  )
+}
+
+function tst {
+  (
+    branch=$(git symbolic-ref --short HEAD)
+    echo
+    echo "**** Running post-commit hook from branch $branch"
+    echo
   )
 }
 
