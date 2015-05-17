@@ -10,6 +10,12 @@ $ git clone git@github.com:vernalkick/dotfiles.git
 $ ./dotfiles/bootstrap.sh
 ```
 
+Optionally you can also run `sublime.sh` to configure Sublime Text:
+
+```shell
+$ ./dotfiles/sublime.sh
+```
+
 The boostrap script will symlink config files from `~/dotfiles` into `~/` and install the following packages:
 
 - https://github.com/robbyrussell/oh-my-zsh
@@ -26,4 +32,5 @@ The boostrap script will symlink config files from `~/dotfiles` into `~/` and in
 $ cd ~/dotfiles
 $ git pull
 $ ./bootstrap.sh
+$ ./sublime.sh
 ```
