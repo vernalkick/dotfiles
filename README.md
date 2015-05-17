@@ -7,13 +7,15 @@ Based off of [David Cornu's dotfiles](https://github.com/davidcornu/dotfiles).
 ```shell
 $ cd ~/
 $ git clone git@github.com:vernalkick/dotfiles.git
-$ ./dotfiles/bootstrap.sh
+$ cd ~/dotfiles
+$ ./bootstrap.sh
 ```
 
 Optionally you can also run `sublime.sh` to configure Sublime Text:
 
 ```shell
-$ ./dotfiles/sublime.sh
+$ cd ~/dotfiles
+$ ./sublime.sh
 ```
 
 The boostrap script will symlink config files from `~/dotfiles` into `~/` and install the following packages:
