@@ -2,7 +2,7 @@
 	"auto_indent": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Spacegray/Flatland Dark.tmTheme",
+	"color_scheme": "Packages/User/color-schemes/base16-ocean.dark.tmTheme",
 	"create_window_at_startup": false,
 	"draw_shadows": false,
 	"enable_tab_scrolling": false,
@@ -12,7 +12,9 @@
 		".DS_Store",
 		"dump.rdb",
 		".gitmodules",
-		".gitignore"
+		".gitignore",
+		"*.orig",
+		".__*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -30,11 +32,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SideBarEnhancements",
 		"Sass",
 		"Vintage"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
 	"scroll_past_end": true,
 	"tab_completion": false,
 	"tab_size": 2,

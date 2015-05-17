@@ -61,10 +61,11 @@ function strip-diff {
 
 # Misc
 alias serve='ruby -run -e httpd . -p 9090'
-alias be='bundle exec'
+function be { bundle check >/dev/null || bundle install && bundle exec $@; }
 alias bi='bundle install'
-alias ss='script/server'
+alias ss='be TDD=0 script/server'
 alias shopify='cd ~/vagrant/src/shopify; subl .'
+alias ssh-kevinclark='ssh root@162.248.101.222'
 
 # Get rid of autocorrection
 unsetopt correct_all

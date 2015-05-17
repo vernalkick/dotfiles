@@ -12,3 +12,4 @@ gin-bin
 *.system-ca-bundle
 *.cache
 *.ca-certs
+.sass-cache/

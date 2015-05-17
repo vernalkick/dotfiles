@@ -11,7 +11,7 @@
 			<dict>
 
 				<key>background</key>
-				<string>#26292C</string>
+				<string>#2b303b</string>
 
 				<key>caret</key>
 				<string>#BBBCBD</string>
@@ -35,14 +35,14 @@
 				<string>#3C3F42</string>
 
 				<key>gutterForeground</key>
-				<string>#73797b75</string>
+				<string>#4D5669</string>
 
 				<key>guide</key>
 				<string>#73797b30</string>
 
 				<key>activeGuide</key>
 				<string>#73797b60</string>
-				
+
 			</dict>
 		</dict>
 		<dict>
@@ -55,7 +55,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#798188</string>
+				<string>#6D7585</string>
 			</dict>
 		</dict>
 	        <dict>

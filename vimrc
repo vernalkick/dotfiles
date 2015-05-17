@@ -14,6 +14,7 @@ Bundle "Townk/vim-autoclose"
 Bundle "itchyny/lightline.vim"
 Bundle "terryma/vim-multiple-cursors"
 Bundle "tpope/vim-fugitive"
+Plugin 'chriskempson/base16-vim'
 
 " Additional language support
 Bundle "vim-ruby/vim-ruby"
@@ -45,7 +46,7 @@ let g:ctrlp_user_command= 'ag %s -l --nocolor -g ""'
 nnoremap <C-d> :NERDTreeToggle<CR>
 
 " lightline
-let g:lightline = { 'colorscheme': 'solarized' }
+" let g:lightline = { 'colorscheme': 'solarized' }
 
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
@@ -143,9 +144,10 @@ if has('clipboard')
 endif
 
 " Theme
-set t_Co=16 " Use the terminal's colors to get true colors
+"set t_Co=16 " Use the terminal's colors to get true colors
 set background=dark
-"colorscheme solarized
+"colorscheme base16-default
+let base16colorspace=256
 
 " Source the vimrc file after saving it. This way, you don't have to reload Vim to see the changes.
 if has("autocmd")
