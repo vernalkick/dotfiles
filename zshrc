@@ -13,6 +13,9 @@ source $ZSH/oh-my-zsh.sh
 source ~ZSH_CUSTOM/plugins/pure/pure.zsh
 PURE_GIT_PULL=0
 
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # For local customizations
 if [ -f ~/.profile ] || [ -h ~/.profile ]; then source ~/.profile; fi
 
@@ -112,3 +115,5 @@ setopt no_complete_aliases
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

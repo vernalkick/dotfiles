@@ -2,7 +2,7 @@
 	"auto_indent": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/color-schemes/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/User/color-schemes/one-dark.tmTheme",
 	"create_window_at_startup": false,
 	"draw_shadows": false,
 	"enable_tab_scrolling": false,
@@ -32,8 +32,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SideBarEnhancements",
 		"Sass",
+		"SideBarEnhancements",
 		"Vintage"
 	],
 	"line_padding_bottom": 4,
