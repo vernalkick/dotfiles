@@ -14,7 +14,7 @@ source ~ZSH_CUSTOM/plugins/pure/pure.zsh
 PURE_GIT_PULL=0
 
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+# source $(brew --prefix nvm)/nvm.sh
 
 # For local customizations
 if [ -f ~/.profile ] || [ -h ~/.profile ]; then source ~/.profile; fi
@@ -117,3 +117,5 @@ setopt no_complete_aliases
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
