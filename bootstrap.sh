@@ -42,7 +42,7 @@ ensure_repo ~/.rbenv/plugins/ruby-build git@github.com:sstephenson/ruby-build.gi
 sudo gem install bundler
 
 # Node
-ensure_repo ~/.nvm git@github.com:creationix/nvm.git
+# ensure_repo ~/.nvm git@github.com:creationix/nvm.git
 
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -58,18 +58,12 @@ header "Installing apps"
 # Essentials
 brew cask install dropbox
 brew cask install one-password
-
-# Development
-brew cask install iterm2
+brew cask install slack
+brew cask install things
 brew cask install atom
-
-# Design
 brew cask install ember
 brew cask install sketch
-
-# Browsers
-brew cask install google-chrome
-brew cask install firefox
+brew cask install tripmode
 
 # Quicklook extensions (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen quicklook-json
@@ -83,16 +77,6 @@ header "Tweaking OSX Preferences"
 
 # Fix doc hiding and showing (http://kevinclark.ca/articles/hide-your-dock-without-losing-your-mind)
 defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -float 0.5; killall Dock
-
-
-# ==============================================================================
-# FONTS
-# ==============================================================================
-
-header "Symlinking fonts"
-
-# Reverse symlink the Fonts Dropbox folder to the fonts library
-ensure_symlink /Library/Fonts/Custom\ Fonts ~/Dropbox\ \(Personal\)/Fonts
 
 
 # ==============================================================================
