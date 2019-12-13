@@ -78,6 +78,9 @@ header "Tweaking OSX Preferences"
 # Fix doc hiding and showing (http://kevinclark.ca/articles/hide-your-dock-without-losing-your-mind)
 defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -float 0.5; killall Dock
 
+# Open Hangout links in Chrome
+defaults write com.flexibits.fantastical2.mac GoogleHangoutsBundleIdentifier com.google.Chrome
+
 
 # ==============================================================================
 # SET UP ATOM

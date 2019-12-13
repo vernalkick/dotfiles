@@ -1,14 +1,29 @@
 "*":
   core:
-    disabledPackages: [
-      "wrap-guide"
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".d.ts"
+      ".sass-cache"
     ]
+    telemetryConsent: "limited"
+    titleBar: "custom-inset"
   editor:
-    autoIndentOnPaste: false
-    lineHeight: 1.7
+    fontFamily: "SFMono-Regular"
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
-    userId: "2c922090-6a23-35ff-0ac5-8d8116641de6"
+    userId: "1c28bd57-a28e-4d8b-9936-c46b4a4d74b4"
+  "linter-ui-default":
+    panelHeight: 69
+  "one-dark-ui": {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

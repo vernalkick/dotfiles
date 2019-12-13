@@ -1,5 +1,8 @@
 export PATH=""
 
+export GOPATH=$HOME
+export PATH=$GOPATH/bin:$PATH
+
 # Load default PATH
 if [ -x /usr/libexec/path_helper ]; then eval "$(/usr/libexec/path_helper -s)"; fi
 if [ -f /etc/environment ]; then source /etc/environment; fi
@@ -116,6 +119,6 @@ setopt no_complete_aliases
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
+
