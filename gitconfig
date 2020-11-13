@@ -16,21 +16,6 @@
   default = current
   rebase = true
 
-[diff]
-  tool = Kaleidoscope
-[difftool]
-  prompt = false
-[difftool "Kaleidoscope"]
-  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
-[merge]
-  tool = Kaleidoscope
-[mergetool]
-  prompt = false
-[mergetool "Kaleidoscope"]
-  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-  trustExitCode = true
-
 [branch]
   autosetupmerge = true
 
@@ -49,6 +34,7 @@
 
 [hub]
   protocol = https
+  
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
